@@ -1,0 +1,122 @@
+.search-form {
+    padding: 25px 37px;
+    border-radius: 10px;
+    height: 20px;
+    display: flex;
+    text-align: left;
+    flex-direction: column;
+    color: #fff;
+}
+
+.search-form input {
+    width: 40%;
+    color: #1c0651
+}
+
+.search-form input,
+.search-form button, .user-details {
+    outline: none;
+    font-size: 12px;
+    padding: 7px;
+    border-radius: 7px;
+    border: none;
+    font-weight: 600;
+}
+
+.search-button, .user-details{
+    margin: 0 13px;
+    overflow: hidden;
+    cursor: pointer;
+    background: #19204d;
+    color: #fff;
+    transition: box-shadow 0.5s ease-in-out, border-color 0.5s ease-in-out;
+}
+
+.user-details{
+    font-weight: 400;
+    font-size: 8px;
+    margin-bottom: 3px;
+}
+
+.search-button:hover,.user-details:hover  {
+    background-color: #1c0651;
+    color: #fff;
+    box-shadow: 0 0 5px #3b83bd,
+        0 0 20px rgb(75 0 255 / 0.8),
+        0 0 35px rgb(75 0 255 / 0.7),
+        0 0 50px rgb(75 0 255 / 0.6);
+    border-color: #fff;
+}
+
+.search-results {
+    padding: 6px 27px;
+    margin-bottom: 40px;
+    border-radius: 10px;
+    width: 95%;
+    opacity:0.95;
+}
+
+.user-div {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.user {
+    width: 14%;
+    margin: 10px 00;
+    text-align: center;
+    border: rgb(55, 5, 141) solid 2px;
+    border-radius: 5%;
+    background-color: whitesmoke;
+}
+
+.user .image {
+    width: 80px;
+    padding-left: 25px;
+    padding-top: 6px;
+    place-items: center;
+}
+
+.user .image img {
+    width: 70%;
+    border-radius: 50%;
+}
+
+.user-info {
+    display: block;
+    padding: 0 10px;
+    font-size: 10px;
+}
+
+/* Pagination */
+
+.pagination-div {
+    width: 97%;
+    margin-top: 1px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    font-size: 13px;
+}
+
+.pagination-div select,
+.pagination button {
+    outline: none;
+    border-radius: 5px;
+    font-size: 12px
+}
+
+.pagination button {
+    width: 42%;
+    height: 90%;
+    padding-left: 8px;
+    padding-right: 8px;
+    background-color: #441e47;
+    color: whitesmoke;
+    margin: 0 3px;
+}
+
+  
+

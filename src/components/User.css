@@ -1,0 +1,155 @@
+.user-information {
+    width: 550px;
+    border-radius: 10px;
+    display: flex;
+    place-items: center;
+    text-align: center;
+    color: #6a2b5e; 
+    font-size: 13px;
+}
+
+.user-bio{
+    text-align: left;
+    padding-right: 7px;
+    font-size: 12px;
+    font-weight: bolder;
+} 
+
+.user-information .image {
+    width: 190px;
+    /* padding-top: 15px; */
+    padding-right: 30px;
+    padding-left: 5px;
+}
+
+.user-information .image img {
+    width: 100%;
+    border-radius: 50%;
+}
+
+.more-data img  {
+
+    width: 17px;
+    padding-right: 1px;
+}
+
+.more-data {
+    color: #845c89;
+    font-weight: bold;
+}
+
+.more-data p {
+    padding: 4px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.user-a{
+    background-image: linear-gradient(to bottom right, #845c89, rgb(3, 4, 31));
+    border-radius: 30%;
+    font-size: 10px;
+    color: #f9e8f6;
+}
+
+.back {
+    display: inline-block;
+    margin: 5px 0px;
+    padding: 7px;
+    border-radius: 7px;
+    overflow: hidden;
+    font-size: 10px;
+    cursor: pointer;
+    background: #845c89;
+    color:#f9e8f6;
+    font-weight: bolder;
+    text-decoration: none;
+    transition: box-shadow 0.5s ease-in-out, border-color 0.5s ease-in-out;
+}
+
+.back:hover {
+    background-color:#845c89;
+    color: #fff;
+    box-shadow: 0 0 5px #FEE3EC,
+        0 0 20px rgba(189, 44, 139, 0.8),
+        0 0 35px rgba(238, 10, 169, 0.7),
+        0 0 50px rgba(231, 15, 173, 0.6);
+    border-color: #fff;
+}
+
+
+.user-repos{
+    /* background-color: whitesmoke; */
+    /* width: 43%; */
+    padding: 5px 5px;
+     margin: 3px 3px; 
+    border-radius: 10px;
+    text-align:left; 
+    display: flex; 
+    flex-direction:column;
+    /* flex-wrap: wrap; */
+   /* justify-content: flex-start; */
+}
+
+.repo {
+padding: 1px;
+margin-bottom: 4px;
+font-size: 8px;
+}
+
+.repo a {
+    color: #f9e8f6 ;
+}
+
+.repo-title, .user-name{
+    /* color:whitesmoke ; */
+    font-size: 12px;
+    animation: pulsate 1.5s infinite alternate;
+    padding-bottom: 10px;
+    color: #f9e8f6;
+    text-shadow:
+      0 0 7px #eea6e1,
+      0 0 10px #eb9adc,
+      0 0 21px #450339,
+      0 0 42px #845c89,
+      0 0 82px #845c89,
+      0 0 92px #845c89,
+      0 0 102px #810e90,
+      0 0 151px #580a62;
+}
+
+@keyframes pulsate {
+    
+    100% {
+  
+        text-shadow:
+        /* 0 0 4px #fff,
+        0 0 11px #fff,
+        0 0 19px #fff, */
+        0 0 40px #845c89,
+        0 0 80px #845c89,
+        0 0 90px #845c89,
+        0 0 100px #845c89,
+        0 0 150px #845c89;
+    
+    }
+    0% {
+
+        text-shadow:
+        0 0 2px #fff,
+        0 0 4px rgb(255, 255, 255),
+        0 0 6px rgb(162, 158, 162),
+        0 0 10px #845c89,
+        0 0 45px #845c89,
+        0 0 55px #845c89,
+        0 0 70px #845c89,
+        0 0 80px #845c89;
+    
+    }}
+
+    .user-name{
+        padding-right: 40px;
+        font-size: 24px;
+        font-style: oblique;
+        font-weight: 900;
+    }

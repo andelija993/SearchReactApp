@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100&display=swap');
+
+*{
+  font-family: 'Poppins', sans-serif;
+  padding: 0;
+  margin: 0;
+}
+
+h2{
+  color: whitesmoke;
+  padding-left: 33px;
+}
+
+
+body{
+  background-image: url("./assets/github-home-done2.jpg");
+  background-size: 100%;
+  background-attachment: fixed;
+  /* object-fit: cover; */
+}
+
+.container {
+  padding-top: 20px;
+  width: 90%;
+  margin: 0 auto;
+}
